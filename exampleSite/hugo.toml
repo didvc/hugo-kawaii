@@ -5,6 +5,11 @@ theme = "kawaii"
 
 enableEmoji = true
 
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.147.0"
+
 [pagination]
   pagerSize = 6
 
