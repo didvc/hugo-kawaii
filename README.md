@@ -31,12 +31,7 @@ Visit the [live demo](https://hugo-kawaii.pages.dev/) to see the theme in action
    theme = "kawaii"
    ```
 
-3. **Copy the example configuration**:
-   ```bash
-   cp themes/kawaii/exampleSite/hugo.toml .
-   ```
-
-4. **Start your site**:
+3. **Start your site**:
    ```bash
    hugo server
    ```
