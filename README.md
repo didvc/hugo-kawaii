@@ -52,7 +52,7 @@ Visit the [live demo](https://hugo-kawaii.pages.dev/) to see the theme in action
 
 ```toml
 baseURL = "https://yoursite.com"
-languageCode = "en-us"
+locale = "en-us"
 title = "Your Site Title"
 theme = "kawaii"
 
