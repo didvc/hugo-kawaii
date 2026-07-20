@@ -12,7 +12,7 @@ Visit the [live demo](https://hugo-kawaii.pages.dev/) to see the theme in action
 
 - 🎨 **Modern Design**: Clean, contemporary aesthetics with beautiful typography
 - 🌙 **Dark Mode**: Automatic system preference detection with manual toggle
-- 📱 **Responsive**: Mobile-first design that looks great on all devices  
+- 📱 **Responsive**: Mobile-first design that looks great on all devices
 - ⚡ **Fast**: Optimized for performance with minimal resource overhead
 - 🔍 **Search**: Built-in client-side search functionality
 - ✨ **Animations**: Smooth animations and delightful micro-interactions
@@ -59,11 +59,11 @@ theme = "kawaii"
 [params]
   description = "Your site description"
   author = "Your Name"
-  
+
   # Theme features
   theme_toggle = true    # Enable dark mode toggle
   search = true         # Enable search functionality
-  
+
   # Hero section
   hero_cta = "Get Started"
   hero_cta_link = "/posts"
@@ -89,7 +89,7 @@ theme = "kawaii"
     name = "Home"
     url = "/"
     weight = 10
-  
+
   [[menu.main]]
     name = "Posts"
     url = "/posts"
@@ -185,7 +185,7 @@ We welcome contributions! Here's how you can help:
 - Found a bug? [Create an issue](https://github.com/yuis-ice/hugo-kawaii/issues/new?template=bug_report.yml)
 - Use our detailed bug report template for faster resolution
 
-### ✨ Suggest Features  
+### ✨ Suggest Features
 - Have an idea? [Request a feature](https://github.com/yuis-ice/hugo-kawaii/issues/new?template=feature_request.yml)
 - Join our [discussions](https://github.com/yuis-ice/hugo-kawaii/discussions) to brainstorm
 
