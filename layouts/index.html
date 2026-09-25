@@ -10,7 +10,7 @@
         
         {{ if .Site.Params.hero_cta }}
         <div class="kawaii-hero-cta">
-            <a href="{{ .Site.Params.hero_cta_link | default "/posts" }}" class="kawaii-btn kawaii-btn-primary">
+            <a href="{{ .Site.Params.hero_cta_link | default "posts/" | relURL }}" class="kawaii-btn kawaii-btn-primary">
                 {{ .Site.Params.hero_cta | default "Explore Posts" }}
             </a>
         </div>
@@ -32,7 +32,7 @@
 <section class="kawaii-recent-posts">
     <div class="kawaii-section-header">
         <h2 class="kawaii-section-title">Recent Posts</h2>
-        <a href="/posts" class="kawaii-section-link">View all →</a>
+        <a href="{{ "posts/" | relURL }}" class="kawaii-section-link">View all →</a>
     </div>
     
     <div class="kawaii-posts-grid kawaii-posts-grid-featured">
@@ -85,7 +85,7 @@
         <h3 class="kawaii-feature-title">{{ .title }}</h3>
         <p class="kawaii-feature-description">{{ .description }}</p>
         {{ if .link }}
-        <a href="{{ .link }}" class="kawaii-feature-link">Learn more →</a>
+        <a href="{{ .link | relURL }}" class="kawaii-feature-link">Learn more →</a>
         {{ end }}
     </div>
     {{ end }}

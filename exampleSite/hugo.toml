@@ -22,10 +22,9 @@ enableEmoji = true
 
   theme_toggle = true
   search = true
-  favicon = "/favicon.ico"
 
   hero_cta = "Explore Demo"
-  hero_cta_link = "/posts"
+  hero_cta_link = "posts/"
 
   footer_description = "Demonstrating the power and beauty of the Kawaii theme"
   copyright = "Demo site for Kawaii theme."
@@ -35,8 +34,8 @@ enableEmoji = true
     url = "https://github.com/didvc/hugo-kawaii"
 
   [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/yuis_ice"
+    name = "github"
+    url = "https://github.com/didvc"
 
   [[params.footer_links]]
     name = "Documentation"
@@ -50,7 +49,7 @@ enableEmoji = true
     title = "Beautiful Design"
     description = "Experience modern web design with kawaii aesthetics and smooth animations"
     icon = "✨"
-    link = "/posts"
+    link = "posts/"
 
   [[params.featured_sections]]
     title = "Developer Friendly"
@@ -74,20 +73,12 @@ enableEmoji = true
     url = "/posts"
     weight = 20
 
-  [[menu.main]]
-    name = "Gallery"
-    url = "/gallery"
-    weight = 25
 
   [[menu.main]]
     name = "About"
     url = "/about"
     weight = 30
 
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 40
 
 [markup]
   [markup.highlight]

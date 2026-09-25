@@ -18,9 +18,9 @@
             {{ end }}
             
             {{ if not .Site.Menus.main }}
-            <a href="/" class="kawaii-nav-link {{ if .IsHome }}kawaii-nav-active{{ end }}">Home</a>
-            <a href="/posts" class="kawaii-nav-link {{ if eq .Section "posts" }}kawaii-nav-active{{ end }}">Posts</a>
-            <a href="/about" class="kawaii-nav-link {{ if eq .Title "About" }}kawaii-nav-active{{ end }}">About</a>
+            <a href="{{ "" | relURL }}" class="kawaii-nav-link {{ if .IsHome }}kawaii-nav-active{{ end }}">Home</a>
+            <a href="{{ "posts/" | relURL }}" class="kawaii-nav-link {{ if eq .Section "posts" }}kawaii-nav-active{{ end }}">Posts</a>
+            <a href="{{ "about/" | relURL }}" class="kawaii-nav-link {{ if eq .Title "About" }}kawaii-nav-active{{ end }}">About</a>
             {{ end }}
         </div>
         

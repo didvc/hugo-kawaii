@@ -55,7 +55,7 @@ The theme is highly customizable through Hugo's configuration system. You can ea
 - Customize the hero section
 - Add featured sections to your homepage
 
-Check out our [documentation](/docs) for detailed customization options.
+Check out our [documentation](https://github.com/didvc/hugo-kawaii#readme) for detailed customization options.
 
 ## Community
 
