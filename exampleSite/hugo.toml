@@ -1,4 +1,4 @@
-baseURL = "https://hugo-kawaii.pages.dev"
+baseURL = "https://didvc.github.io/hugo-kawaii/"
 locale = "en-us"
 title = "Kawaii Theme Demo"
 theme = "kawaii"
@@ -18,7 +18,7 @@ enableEmoji = true
 
 [params]
   description = "A showcase of the beautiful Kawaii Hugo theme"
-  author = "yuis-ice"
+  author = "didvc"
 
   theme_toggle = true
   search = true
@@ -32,7 +32,7 @@ enableEmoji = true
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/yuis-ice/hugo-kawaii"
+    url = "https://github.com/didvc/hugo-kawaii"
 
   [[params.social]]
     name = "twitter"
@@ -40,11 +40,11 @@ enableEmoji = true
 
   [[params.footer_links]]
     name = "Documentation"
-    url = "https://github.com/yuis-ice/hugo-kawaii#readme"
+    url = "https://github.com/didvc/hugo-kawaii#readme"
 
   [[params.footer_links]]
     name = "Download"
-    url = "https://github.com/yuis-ice/hugo-kawaii"
+    url = "https://github.com/didvc/hugo-kawaii"
 
   [[params.featured_sections]]
     title = "Beautiful Design"
@@ -56,7 +56,7 @@ enableEmoji = true
     title = "Developer Friendly"
     description = "Built with Hugo, easy to customize and extend for your needs"
     icon = "⚡"
-    link = "https://github.com/yuis-ice/hugo-kawaii#readme"
+    link = "https://github.com/didvc/hugo-kawaii#readme"
 
   [[params.featured_sections]]
     title = "Mobile First"

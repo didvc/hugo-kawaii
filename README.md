@@ -1,49 +1,44 @@
 # Kawaii Hugo Theme
 
-A modern and cool Hugo theme with beautiful kawaii aesthetics, dark mode support, and delightful animations.
+A Hugo theme with a kawaii look, a dark mode, and small animations throughout.
 
-## 📸 Preview
+![Kawaii theme screenshot](https://raw.githubusercontent.com/didvc/hugo-kawaii/master/images/screenshot.png)
 
-![Kawaii Theme Screenshot](https://raw.githubusercontent.com/yuis-ice/hugo-kawaii/master/images/screenshot.png)
+A [live demo](https://didvc.github.io/hugo-kawaii/) shows the theme in use, and the `exampleSite` directory contains a complete working site.
 
-Visit the [live demo](https://hugo-kawaii.pages.dev/) to see the theme in action, or check out the `exampleSite` directory for a complete working example.
+![GitHub stars](https://img.shields.io/github/stars/didvc/hugo-kawaii?style=social)
+![GitHub forks](https://img.shields.io/github/forks/didvc/hugo-kawaii?style=social)
+![GitHub issues](https://img.shields.io/github/issues/didvc/hugo-kawaii)
+![GitHub license](https://img.shields.io/github/license/didvc/hugo-kawaii)
 
-## ✨ Features
+## Features
 
-- 🎨 **Modern Design**: Clean, contemporary aesthetics with beautiful typography
-- 🌙 **Dark Mode**: Automatic system preference detection with manual toggle
-- 📱 **Responsive**: Mobile-first design that looks great on all devices
-- ⚡ **Fast**: Optimized for performance with minimal resource overhead
-- 🔍 **Search**: Built-in client-side search functionality
-- ✨ **Animations**: Smooth animations and delightful micro-interactions
-- 🎯 **Accessible**: WCAG compliant with keyboard navigation support
-- 🛠️ **Customizable**: Easy to customize colors, fonts, and layout
+The layout is responsive and mobile-first, set in clean type with smooth animations and micro-interactions. Dark mode follows the system preference and can also be toggled by hand. Search runs entirely on the client. The markup is built with accessibility in mind, including keyboard navigation, and the theme aims for WCAG compliance. Colors, fonts and layout are driven by CSS custom properties, so they are easy to change, and the repository ships a full example site to start from.
 
-## 🚀 Quick Start
+## Quick start
 
-1. **Install the theme**:
+1. Add the theme as a submodule:
    ```bash
-   git submodule add https://github.com/yuis-ice/hugo-kawaii.git themes/kawaii
+   git submodule add https://github.com/didvc/hugo-kawaii.git themes/kawaii
    ```
 
-2. **Update your `hugo.toml`**:
+2. Set it in your `hugo.toml`:
    ```toml
    theme = "kawaii"
    ```
 
-3. **Start your site**:
+3. Start the site:
    ```bash
    hugo server
    ```
 
-## 📋 Requirements
+## Requirements
 
-- Hugo Extended version 0.147.0 or higher
-- Git (for theme installation)
+Hugo Extended 0.147.0 or later, and Git to install the theme.
 
-## 🎨 Configuration
+## Configuration
 
-### Basic Configuration
+### Basic configuration
 
 ```toml
 baseURL = "https://yoursite.com"
@@ -64,7 +59,7 @@ theme = "kawaii"
   hero_cta_link = "/posts"
 ```
 
-### Social Links
+### Social links
 
 ```toml
 [[params.social]]
@@ -76,7 +71,7 @@ theme = "kawaii"
   url = "https://twitter.com/yourusername"
 ```
 
-### Navigation Menu
+### Navigation menu
 
 ```toml
 [menu]
@@ -91,7 +86,7 @@ theme = "kawaii"
     weight = 20
 ```
 
-### Featured Sections
+### Featured sections
 
 ```toml
 [[params.featured_sections]]
@@ -101,11 +96,11 @@ theme = "kawaii"
   link = "/about"
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Colors
 
-Override CSS variables to customize colors:
+Override the CSS variables to change the colors:
 
 ```css
 /* assets/css/custom.css */
@@ -118,7 +113,7 @@ Override CSS variables to customize colors:
 
 ### Fonts
 
-Change typography by updating font variables:
+Change the typography through the font variables:
 
 ```css
 :root {
@@ -127,9 +122,9 @@ Change typography by updating font variables:
 }
 ```
 
-## 📝 Content Structure
+## Content structure
 
-### Post Front Matter
+### Post front matter
 
 ```yaml
 ---
@@ -141,7 +136,7 @@ featured_image: "/images/featured.jpg"
 ---
 ```
 
-### Page Structure
+### Page structure
 
 ```
 content/
@@ -156,124 +151,59 @@ content/
     └── _index.md      # Contact page
 ```
 
-## 🎯 Performance
+## Performance
 
-The Kawaii theme is optimized for performance:
+The theme targets a Lighthouse score of 100 in Performance, Accessibility, Best Practices and SEO. CSS and JavaScript together come to under 50 KB, and pages load in under a second on a modern connection.
 
-- **Lighthouse Score**: 100/100 (Performance, Accessibility, Best Practices, SEO)
-- **Page Size**: < 50KB (CSS + JS combined)
-- **Load Time**: < 1 second on modern connections
-- **Mobile Friendly**: Optimized for mobile devices
+## Browser support
 
-## 🌍 Browser Support
+Chrome or Chromium 88+, Firefox 85+, Safari 14+ and Edge 88+.
 
-- Chrome/Chromium 88+
-- Firefox 85+
-- Safari 14+
-- Edge 88+
+## Contributing
 
-## 🤝 Contributing
+Bug reports and feature requests are welcome through the [bug report](https://github.com/didvc/hugo-kawaii/issues/new?template=bug_report.yml) and [feature request](https://github.com/didvc/hugo-kawaii/issues/new?template=feature_request.yml) templates; ideas can also go to [Discussions](https://github.com/didvc/hugo-kawaii/discussions). For code, fork the repository, work on a feature branch following the existing style, test against the example site, and open a pull request that describes the change. Improvements to the documentation and examples, and write-ups of your own customizations, are just as welcome.
 
-We welcome contributions! Here's how you can help:
+### Development setup
 
-### 🐛 Report Issues
-- Found a bug? [Create an issue](https://github.com/yuis-ice/hugo-kawaii/issues/new?template=bug_report.yml)
-- Use our detailed bug report template for faster resolution
-
-### ✨ Suggest Features
-- Have an idea? [Request a feature](https://github.com/yuis-ice/hugo-kawaii/issues/new?template=feature_request.yml)
-- Join our [discussions](https://github.com/yuis-ice/hugo-kawaii/discussions) to brainstorm
-
-### 🔧 Code Contributions
-- Fork the repository and create a feature branch
-- Follow the existing code style and patterns
-- Test your changes with the example site
-- Submit a pull request with a clear description
-
-### 📚 Documentation
-- Help improve documentation and examples
-- Share your customizations and use cases
-- Contribute to the community discussions
-
-### Development Setup
-
-1. **Fork and clone the repository**:
+1. Fork and clone the repository:
    ```bash
-   git clone https://github.com/yuis-ice/hugo-kawaii.git
-   cd kawaii-theme
+   git clone https://github.com/didvc/hugo-kawaii.git
+   cd hugo-kawaii
    ```
 
-2. **Create a test site**:
+2. Create a test site:
    ```bash
    hugo new site test-site
    cd test-site
    ln -s ../../../hugo-kawaii themes/kawaii
    ```
 
-3. **Copy example configuration**:
+3. Copy the example configuration:
    ```bash
    cp themes/kawaii/exampleSite/hugo.toml .
    cp -r themes/kawaii/exampleSite/content .
    ```
 
-4. **Start development server**:
+4. Start the development server:
    ```bash
    hugo server --theme kawaii
    ```
 
-## 📄 License
+## Roadmap
 
-This theme is released under the [MIT License](LICENSE).
+Planned: multi-language support (i18n), more advanced search, additional color schemes, and further work on animations and performance.
 
-## 🙏 Credits
+## Support
 
-- **Hugo**: The world's fastest framework for building websites
-- **Inter Font**: Beautiful typography by Rasmus Andersson
-- **JetBrains Mono**: Excellent monospace font for code
-- **Feather Icons**: Beautiful open source icons
+Usage is covered by this README and the example site. Questions and problems go to [GitHub Issues](https://github.com/didvc/hugo-kawaii/issues) or [GitHub Discussions](https://github.com/didvc/hugo-kawaii/discussions); for general Hugo questions, see the [Hugo forum](https://discourse.gohugo.io/), the [Hugo documentation](https://gohugo.io/documentation/) and the [Hugo themes directory](https://themes.gohugo.io/).
 
-## 📞 Support
+## Credits
 
-- **Documentation**: Check the README and exampleSite for usage instructions
-- **Issues**: [GitHub Issues](https://github.com/yuis-ice/hugo-kawaii/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yuis-ice/hugo-kawaii/discussions)
-- **Community**: [Hugo Community Forum](https://discourse.gohugo.io/)
+Built on [Hugo](https://gohugo.io/). Typeset in Inter by Rasmus Andersson and JetBrains Mono, with icons from Feather Icons.
 
-## 🚀 What's New
+## License
 
-- ✅ Modern CSS with custom properties system
-- ✅ Dark mode with system preference detection
-- ✅ Responsive mobile-first design
-- ✅ Interactive JavaScript features
-- ✅ Comprehensive example site
-- ✅ Accessibility-focused HTML structure
-
-## 🗺️ Future Plans
-
-- [ ] Multi-language support (i18n)
-- [ ] Advanced search functionality
-- [ ] Additional color schemes
-- [ ] Animation improvements
-- [ ] Performance optimizations
-
----
-
-**Made with ❤️ for the Hugo community**
-
-If you like this theme, please ⭐ star it on GitHub and share it with others!
-
-## 📊 Repository Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yuis-ice/hugo-kawaii?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yuis-ice/hugo-kawaii?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yuis-ice/hugo-kawaii)
-![GitHub license](https://img.shields.io/github/license/yuis-ice/hugo-kawaii)
-
-## 🔗 Links
-
-- **Repository**: [github.com/yuis-ice/hugo-kawaii](https://github.com/yuis-ice/hugo-kawaii)
-- **Hugo Themes**: [themes.gohugo.io](https://themes.gohugo.io/)
-- **Hugo Documentation**: [gohugo.io/documentation](https://gohugo.io/documentation/)
+Released under the [MIT License](LICENSE).
 
 <!-- BEGIN gh-mutual-linking -->
 
@@ -281,19 +211,9 @@ If you like this theme, please ⭐ star it on GitHub and share it with others!
 
 ### Related projects
 
-- [**bio**](https://github.com/didvc/bio) — Profile writings and translations of Vulpes (didvc)
-- [**didvc**](https://github.com/didvc/didvc) — a little bit about me/vulpes.
-- [**astro-html-editor**](https://github.com/didvc/astro-html-editor) — Self-hosted HTML editor with live preview. Astro SSR + plain JavaScript, server-side file persistence.
-- [**awesome-template**](https://github.com/didvc/awesome-template)
-- [**qiskit-getting-started**](https://github.com/didvc/qiskit-getting-started) — 🚀 Learn quantum computing with Qiskit! Comprehensive tutorials, examples, and algorithms for beginners. Features Bell states, quantum…
-- [**vibe-go-image-gallery**](https://github.com/didvc/vibe-go-image-gallery) — 🖼️ Modern image gallery application built with Go and Vue.js featuring SEO optimization, responsive design, and automatic thumbnail generation.
-- [**go-filemanager**](https://github.com/didvc/go-filemanager) — 🗂️ Modern web-based file manager built with Go. Features file preview, UTF-8 support, responsive design, and secure file operations.
-- [**html-bio-generator**](https://github.com/didvc/html-bio-generator) — A modern, intuitive tool for creating beautiful HTML bio pages with ease. Built with Next.js, TypeScript, and Tailwind CSS. Perfect for…
-- [**app**](https://github.com/AI-marriage/app) — AIを使った結婚証明書ジェネレーター - ChatGPTとの特別な瞬間を美しい証明書で記録しましょう
-- [**app**](https://github.com/anime-portfolio/app) — 🎌 A stunning developer portfolio template with anime aesthetics and interactive features. Transform your portfolio into an anime-inspired…
-- [**text-to-speech**](https://github.com/didvc/text-to-speech) — 🎤 VoiceFlow - Modern text-to-speech web application with real-time word highlighting, customizable voice settings, and content management. Built…
-- [**molecular**](https://github.com/didvc/molecular) — 🧬 Interactive web application for visualizing and animating molecular structures. Built with React, TypeScript, and modern web technologies for…
-- [**app**](https://github.com/hiroyuki-generator/app)
-- [**Kuso-Physics**](https://github.com/KusoGames/Kuso-Physics) — Open-source chaos physics game. Built with Next.js. Easily self-host on GitHub Pages.
-- [**yuis-ice**](https://github.com/didvc/yuis-ice)
+- [astro-html-editor](https://github.com/didvc/astro-html-editor): Self-hosted HTML editor with live preview. Astro SSR + plain JavaScript, server-side file persistence.
+- [html-bio-generator](https://github.com/didvc/html-bio-generator): A modern, intuitive tool for creating beautiful HTML bio pages with ease. Built with Next.js, TypeScript, and Tailwind CSS. Perfect for developers, freelancers, and content creators.
+- [cf-cache-utils](https://github.com/didvc/cf-cache-utils): CLI to warm and inspect Cloudflare edge cache status across all your URLs; no external dependencies, pure Node.js
+- [uptime-mon](https://github.com/didvc/uptime-mon): Lightweight single-binary endpoint uptime monitor. Probes HTTP, keyword, ICMP and TCP targets on a schedule, appends results as zstd-compressed InfluxDB line protocol, and reads them back in a terminal UI. No web server, no database, no alerting.
+- [didvc](https://github.com/didvc/didvc): Aesthetic Vulpes, Tokyo | a 20s Japanese fox #arts #music #provenance | 2027 Profile README
 <!-- END gh-mutual-linking -->
